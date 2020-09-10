@@ -122,7 +122,7 @@ Hint: You can use .splice() for this
 */
 
  function removeFlavorByName(array, flavor){
-   console.log(array.splice(array.indexOf(flavor), 1));
+   return (array.splice(array.indexOf(flavor), 1));
  }
 
 // console.log(removeFlavorByName(originalFlavors, "Vanilla"));
@@ -162,11 +162,19 @@ DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem.
 
 hint - you can use the .includes method to help you solve this */
 
-function filterByWord(/*code here*/){
+let newMenu = [];
 
-    /*code here*/
-
+function filterByWord(arr, str) {
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i].includes(str)) {
+     console.log(newMenu.push(arr[i]));
+    }
+  }
 }
+
+filterByWord(originalFlavors, "Chocolate");
+
+console.log(newMenu)
 
 
 
