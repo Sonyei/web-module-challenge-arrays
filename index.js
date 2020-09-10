@@ -195,41 +195,20 @@ For example, getAverageWordLength(originalFlavors) should return a number betwee
 
 
 
-// let sum = []
+function makeString(array){
+return newString = array.toString();
+}
 
-// var x = originalFlavors.toString();
+makeString(originalFlavors);
 
-// console.log(x);
+function getAverageWordLength(array){
+let average;
+let total = newString.split(/\W+/).length;
+return average = total/array.length;
+}
 
-// var spaceCount = (x.split(" ").length -1);
-// console.log(spaceCount);
+console.log(`Stretch 1 solution: The average number of words per item is -->` + getAverageWordLength(originalFlavors));
 
-// let answer;
-
-// if(spaceCount == 0) {
-//   answer = 1;
-//   } else if (spaceCount == 1){
-//    answer = 2;
-//   } else if (spaceCount == 2){
-//     answer = 3;
-//   } else {
-//     answer = 'ERR'; 
-// } //else
-
-// for(let i = 0; i < originalFlavors.length; i++)
-
-// sum.push(originalFlavors[i]);
-// console.log(sum);
-
-
-
-
-
-// count how many spaces are in a string 
-// return that counted number to an array
-// take the total value of that array 
-// and divide it by originalArray.length
-// return average
 
 /* STRETCH 2: Baskin Robins now offers new flavors, seasonal flavors, and even regional flavors. Write a function that will randomly select a total of 31 flavors from originalFlavors, currentFlavors, seasonalFlavors, and regionalFlavors.
 
