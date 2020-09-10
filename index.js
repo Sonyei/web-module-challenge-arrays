@@ -291,23 +291,20 @@ var regionalFlavors = ["Pink Bubblegum",
     "Chocolate Chocolate Chip Cheesecake",
     "Caramel 'n' Cookies"]
 
-
-// function randomizer(array) {
+//      function randomPicker(array) {
 //   return  array[Math.floor(Math.random() * array.length)];
-// }
-
-// function getRandomFlavors(set1, set2, set3, set4){
-//     let newMenu;
-//    newMenu = ${randomizer(set1)} + ${randomizer(set2)} + ${randomizer(set3)} + ${randomizer(set4)}.
-// }
-
-// console.log(getRandomFlavors(regionalFlavors, seasonalFlavors, originalFlavors, newFlavors))
+//  }
 
 
-/* STRETCH 2: Baskin Robins now offers new flavors, seasonal flavors, and even regional flavors. Write a function that will randomly select a total of 31 flavors from originalFlavors, currentFlavors, seasonalFlavors, and regionalFlavors.
+// function randomMenu(arr1, arr2, arr3, arr4){
+// for(let i = 0; i > arr1.length; i++){
+// console.log(randomPicker(arr1, arr2, arr3, arr4));
+//   }//for
+// }//function
 
-Your function should accept 4 different arrays,
+// console.log(randomMenu(originalFlavors,regionalFlavors, newFlavors, seasonalFlavors));
 
-and should return a new array called randomFlavors with a length 31.
-
-forExample, getRandomFlavors(originalFlavors, newFlavors, seasonalFlavors, regionalFlavors) might return ["Strawberry Cheesecake", "Eggnog,"..."Chocolate"].*/
+// // RANDOMLY PICK A MENU 
+// // RANDOMLY SELECT A STRING FROM THAT MENU 
+// // PUSH STRING TO NEW ARRAY 
+// // KEEP ITERATING UNTIL ARRAY IS == ARR1.LENGTH;
